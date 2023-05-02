@@ -74,6 +74,12 @@ main{
     width: 110%;
     text-align: center;
     text-justify: center;
+
+    font-size: 0.8em;
+}
+
+header *{
+    user-select: none;
 }
 
 .button1{

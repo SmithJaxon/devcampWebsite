@@ -1,4 +1,4 @@
-@media (max-width: 1060px) {
+@media (max-width: 1050px) {
     header > .header-wrapper{
         
     }
@@ -8,20 +8,26 @@
     header > .header-wrapper > .logo{
         height: 100px
     }  
-    .menu-wrapper{
-        display: none !important;
-    }
-
+    
+    .rightButtons{
+      display: none !important;
+  }
     #hamburger-menu {
         
         top: 30px !important;
       }
 
-    
-
-    
-
+      .second{
+        display: block !important;
+        visibility: visible !important;
+      }
 }
+
+.second{
+  display: none;
+  visibility: hidden;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
@@ -69,10 +75,11 @@
   color: #B9FAF8;
   font-size: 1.5rem;
   text-decoration: none;
+  transition: 1s;
 }
 
 #main-menu a:hover {
-  text-decoration: underline;
+  color: orange;
 }
 
 #hamburger-input{
@@ -103,7 +110,7 @@
 }
 
 #hamburger-menu #sidebar-menu {
-    visibilty: hidden;
+    visibility: hidden;
     position: fixed;
     top: 0;
     left: -250px;
@@ -149,7 +156,7 @@
 }
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1550px) {
   #main-menu {
     display: none;
   }
@@ -162,9 +169,38 @@
     display: initial;
 }
 
-  .rightButtons{
-    display: none !important;
+  
+
+.menu-wrapper{
+  display: none !important;
 }
 
 
+
+
+
+}
+
+
+@media screen and (max-width: 1350px) {
+  .right-side{
+    display: none;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .main-section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box{
+    width: 325px;
+    margin: 35px 35px;
+    height: 325px;
+    
+  }
 }
